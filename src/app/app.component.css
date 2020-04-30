@@ -1,0 +1,47 @@
+.tampilan 
+  {
+    text-align: right;
+    font-family: Courier, monospace;
+    overflow: auto;
+    height: calc(100% / 3);
+    background: lightgrey;
+    padding: 5% !important;
+    font-size: 4rem;
+  }
+
+.kalku 
+  {
+    height: calc(200% / 3);
+  }
+
+.row
+  {
+    display: inline-block;
+  }
+
+.tampilanbawah
+ {
+    border-bottom: 1px solid black;
+    height: 25%;
+    font-size: 2rem;
+    overflow: auto;
+  }
+
+.kotak
+  {
+    margin: 0;
+    width: 33%;
+    height: 20%;
+    background: whitesmoke;
+    color: black;
+    padding: 5%;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+.tengah
+  {
+    margin-left: 33%;
+  }

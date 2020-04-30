@@ -59,12 +59,9 @@ samadengan() {
       this.perhitungan = this.hasil;
       this.hasil = (this.angka1 + this.angka2).toString();
       this.perhitungan = this.calculationString;
-      if (this.hasil.length > 9) {
-        this.hasil = 'ERROR';
-        this.perhitungan = 'Range Exceeded';
-      }
+      
     } else {
-      this.perhitungan = 'ERROR: Invalid Operation';
+      this.perhitungan = 'Invalid';
     }
 
 }

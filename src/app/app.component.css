@@ -4,7 +4,8 @@
     font-family: Courier, monospace;
     overflow: auto;
     height: calc(100% / 3);
-    background: lightgrey;
+    background: black;
+    color: white;
     padding: 5% !important;
     font-size: 4rem;
   }
@@ -21,7 +22,7 @@
 
 .tampilanbawah
  {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     height: 25%;
     font-size: 2rem;
     overflow: auto;
@@ -32,8 +33,8 @@
     margin: 0;
     width: 33%;
     height: 20%;
-    background: whitesmoke;
-    color: black;
+    background: black;
+    color: white;
     padding: 5%;
     font-size: 2rem;
     text-align: center;
